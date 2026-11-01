@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background: #f4f5f7;
+  color: #1f2933;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.khung {
+  max-width: 440px;
+  margin: 48px auto;
+  padding: 24px 28px;
+  background: #fff;
+  border: 1px solid #d9dee5;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  padding: 8px 10px;
+  border: 1px solid #b8c0cc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #1d4ed8;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button.phu {
+  margin: 0;
+  background: transparent;
+  color: #1d4ed8;
+  border: 1px solid #1d4ed8;
+}
+
+:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+}
+
+.thanh-tren {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e8ed;
+}
+
+.loi {
+  color: #b42318;
+}
+
